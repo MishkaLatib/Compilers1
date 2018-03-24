@@ -12,7 +12,7 @@ id -> [a..z] (String)
 
 Program -> Statement*
 Statement -> print( Exp ) ;
-Staetment -> id = Exp ;
+Statement -> id = Exp ;
 Statement -> VarDecl  = Exp
 Statetment -> VarDecl;
 
